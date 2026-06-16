@@ -37,7 +37,7 @@
 **REST API для AI-first планировщика дел** — бэкэнд для мобильного приложения с google mobile-native Oauth и Российской нейросетью SberAI.
 
 ### [XDCTerm](https://github.com/weavedwires/xdcterm)
-**Бот с терминалом внутри DeltaChat** fork одноимённой [демки](https://github.com/link2xt/xdcterm), доведённый до юзабельного состояния. Сам испоьзую для управления серверами вне дома.
+**Бот с in-chat-app терминалом для DeltaChat.** fork одноимённой [демки](https://github.com/link2xt/xdcterm), доведённый до юзабельного состояния. Сам испоьзую для управления серверами вне дома.
 
 ---
 
