@@ -1,10 +1,8 @@
 ![visitors](https://komarev.com/ghpvc/?username=weavedwires&color=6DB33F&style=flat-square&label=visitors)
 
-<h1 align="center">👋 Привет, я weavedwires</h1>
+# Даниил / Weavedwires
 
-<p align="center">
-  <b>Java-разработчик</b> · <b>Clean Architecture</b>
-</p>
+## Java-разработчик · Clean Architecture · Core features
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
@@ -19,9 +17,9 @@
 
 ## Обо мне
 
-**Clean Architecture** — must have.
+**Clean Architecture** спасёт мир.
 
-**Core acknowledge**: меня всегда привлекала история технологий, и то, как оно работает внутри.
+**Core features**: меня всегда привлекала история технологий, и то, как оно работает внутри.
 
 **Philosophy**: Проект должен быть полезен. 1000 todo-листов уже лежит на github - зачем еще один?
 
@@ -33,7 +31,7 @@
 Я не нашел готового решения на Java и написал **Собственный фреймворк для Telegram-ботов.** Chain of Responsibility, модульная архитектура (core / longpolling / webhook).
 
 ### [SVURoutesBot](https://github.com/weavedwires/svuroutesbot)
-**Учебный проект для АО СУБР** от 1 школы г. Североуральска. Гид экскурсий с возможностью записи на них, интеграцией Яндекс.Карт, админ-панелью и PostgreSQL.
+**Учебный проект для АО СУБР** от 1 школы г. Североуральска. Гид экскурсий с возможностью записи на них, интеграцией Яндекс.Карт, и админ-панелью для а.
 
 ### [AiCalendar](https://github.com/weavedwires/aicalendar)
 **REST API для AI-first планировщика дел** — бэкэнд для мобильного приложения с google mobile-native Oauth и Российской нейросетью SberAI
@@ -42,10 +40,7 @@
 
 ## GitHub
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=weavedwires&show_icons=true&theme=vue-dark&hide_border=true&locale=ru" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=weavedwires&layout=compact&theme=vue-dark&hide_border=true&locale=ru" alt="Top Languages" />
-</p>
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=weavedwires&show_icons=true&theme=merko)](https://github.com/weavedwires/github-readme-stats)
 
 ---
 
