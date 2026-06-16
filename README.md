@@ -9,8 +9,8 @@
   <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="Spring" />
   <img src="https://img.shields.io/badge/Micronaut-000000?style=for-the-badge&logo=micronaut&logoColor=white" alt="Micronaut" />
   <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
 </p>
 
 ---
@@ -31,10 +31,13 @@
 Я не нашел готового решения на Java и написал **Собственный фреймворк для Telegram-ботов.** Chain of Responsibility, модульная архитектура (core / longpolling / webhook).
 
 ### [SVURoutesBot](https://github.com/weavedwires/svuroutesbot)
-**Учебный проект для АО СУБР** от 1 школы г. Североуральска. Гид экскурсий с возможностью записи на них, интеграцией Яндекс.Карт, и админ-панелью для а.
+**Учебный проект для АО СУБР** от 1 школы г. Североуральска. Гид экскурсий с возможностью записи на них, интеграцией Яндекс.Карт, и админ-панелью с полной обратной связью.
 
 ### [AiCalendar](https://github.com/weavedwires/aicalendar)
-**REST API для AI-first планировщика дел** — бэкэнд для мобильного приложения с google mobile-native Oauth и Российской нейросетью SberAI
+**REST API для AI-first планировщика дел** — бэкэнд для мобильного приложения с google mobile-native Oauth и Российской нейросетью SberAI.
+
+### [XDCTerm](https://github.com/weavedwires/xdcterm)
+**Бот с терминалом внутри DeltaChat** fork одноимённой [демки](https://github.com/link2xt/xdcterm), доведённый до юзабельного состояния. Сам испоьзую для управления серверами вне дома.
 
 ---
 
@@ -46,6 +49,6 @@
 
 ## Контакты
 
-- **Site**: [wwire.su](https://wwire.su)
+- **Сайт**: [wwire.su](https://wwire.su)
 - **Telegram**: [@weavedwires](https://t.me/weavedwires)
 - **DeltaChat** [Weavedwires](https://i.delta.chat/#EB8D87C689203B97A7438F2361FE236B87F060F3&v=3&i=yYolAiHawifl2U9UATZALVZt&s=9OVStZvziYUYKQgXDgyZlyyc&a=g3uaeiuzmn1lid79ntk2%40cm1.wwire.su&n=Weavedwires)
