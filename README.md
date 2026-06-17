@@ -50,5 +50,6 @@
 ## Контакты
 
 - **Сайт**: [wwire.su](https://wwire.su)
+- **Email**: [danya_popov_08@mail.ru](mailto:danya_popov_08@mail.ru)
 - **Telegram**: [@weavedwires](https://t.me/weavedwires)
 - **DeltaChat** [Weavedwires](https://i.delta.chat/#EB8D87C689203B97A7438F2361FE236B87F060F3&v=3&i=yYolAiHawifl2U9UATZALVZt&s=9OVStZvziYUYKQgXDgyZlyyc&a=g3uaeiuzmn1lid79ntk2%40cm1.wwire.su&n=Weavedwires)
