@@ -40,17 +40,8 @@
 ### [DeltachatMcp](https://github.com/weavedwires/DeltachatMcp)
 **MCP-сервер для Delta Chat.** Даёт AI-агентам (Claude Desktop, OpenCode и любым другим MCP-клиентам) доступ к чатам: чтение, отправка сообщений, импорт аккаунта из бэкапа. Java 21, shaded JAR, запускается как stdio-подпроцесс клиента.
 
-### [dumbpipe-over-chatmail](https://github.com/weavedwires/dumbpipe-over-chatmail)
-**Переработка iroh dumbpipe** — hole punching в стиле netcat. Мои фичи: UDP-поддержка, кастомный DNS (`--dns-server` / `DUMBPIPE_DNS_SERVER`, на Android — авто-резолв из `getprop net.dns*`), релиз-CI на 8 платформ (Linux / Windows / macOS / Android). Rust.
-
 ### [XDCTerm](https://github.com/weavedwires/xdcterm)
 **Бот с in-chat-app терминалом для DeltaChat.** fork одноимённой [демки](https://github.com/link2xt/xdcterm), доведённый до юзабельного состояния. Сам использую для управления серверами вне дома.
-
-### [nanobot-channel-deltachat](https://github.com/weavedwires/nanobot-channel-deltachat)
-**Канал Delta Chat для агентского фреймворка [nanobot](https://github.com/HKUDS/nanobot)** — форк, обновил под новую версию апи, реализовал в виде патча применимого к любой версии.
-
-### [max-telegram-bridge](https://github.com/weavedwires/max-telegram-bridge)
-**Мост для объединения групп МАКС и Telegram** — ретрансляция сообщений в обе стороны. Python.
 
 ### [YandexWeatherCli](https://github.com/weavedwires/YandexWeatherCli)
 **AI-скилл для прогноза погоды** — обёртка над Yandex Weather API, отдаёт CSV, читаемый агентом. Java.
