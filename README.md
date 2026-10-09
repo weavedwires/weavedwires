@@ -52,7 +52,7 @@
 <summary>Утилиты</summary>
 
 ### [YandexWeatherCli](https://github.com/weavedwires/YandexWeatherCli)
-**AI-скилл для прогноза погоды** — обёртка над Yandex Weather API, отдаёт CSV, читаемый агентом. Java.
+**AI-CLI для прогноза погоды** — обёртка над Yandex Weather API: рисует таблицу. Человеко- и агенточитаемый. Java.
 
 ### [max-telegram-bridge](https://github.com/weavedwires/max-telegram-bridge)
 **Мост для объединения групп МАКС и Telegram** — ретрансляция сообщений в обе стороны. Python.
