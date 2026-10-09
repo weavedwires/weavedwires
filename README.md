@@ -29,25 +29,31 @@
 
 ---
 
-## ИИ и агенты
+## Проекты
+
+### [Strongram](https://github.com/weavedwires/strongram)
+Я не нашел готового решения на Java и написал **собственный фреймворк для Telegram-ботов.** Chain of Responsibility, модульная архитектура (core / longpolling / webhook).
+
+### [Ir0hProxy](https://github.com/weavedwires/Ir0hProxy)
+**Android-приложение, которое заворачивает трафик телефона в SOCKS-туннель поверх [iroh](https://www.iroh.computer/).** Выходному узлу не нужен белый адрес — соединение поднимается по ticket, а не по `IP:port`. Режимы VPN и Proxy, список подключений, свои DNS-серверы. MIT.
 
 ### [DeltachatMcp](https://github.com/weavedwires/DeltachatMcp)
 **MCP-сервер для Delta Chat.** Даёт AI-агентам (Claude Desktop, OpenCode и любым другим MCP-клиентам) доступ к чатам: чтение, отправка сообщений, импорт аккаунта из бэкапа. Java 21, shaded JAR, запускается как stdio-подпроцесс клиента.
 
-### [Ir0hProxy](https://github.com/weavedwires/Ir0hProxy)
-**Android-приложение, которое заворачивает трафик телефона в SOCKS-туннель поверх [iroh](https://www.iroh.computer/).** Выходному узлу не нужен белый адрес — соединение поднимается по ticket, а не по `IP:port`, так что выходом может быть машина дома или VPS. MIT.
+### [dumbpipe-over-chatmail](https://github.com/weavedwires/dumbpipe-over-chatmail)
+**Переработка iroh dumbpipe** — hole punching в стиле netcat. Мои фичи: UDP-поддержка, кастомный DNS (`--dns-server` / `DUMBPIPE_DNS_SERVER`, на Android — авто-резолв из `getprop net.dns*`), релиз-CI на 8 платформ (Linux / Windows / macOS / Android). Rust.
 
-А ещё в эту же тему: [nanobot-channel-deltachat](https://github.com/weavedwires/nanobot-channel-deltachat) (канал Delta Chat для nanobot), [YandexWeatherCli](https://github.com/weavedwires/YandexWeatherCli) (AI-скилл для прогноза погоды), [max-telegram-bridge](https://github.com/weavedwires/max-telegram-bridge) (мост MAX ↔ Telegram), [dumbpipe-over-chatmail](https://github.com/weavedwires/dumbpipe-over-chatmail) (hole punching поверх chatmail, Rust).
-
----
-
-## Ключевые проекты
-
-### [Strongram](https://github.com/weavedwires/strongram)
-Я не нашел готового решения на Java и написал **Собственный фреймворк для Telegram-ботов.** Chain of Responsibility, модульная архитектура (core / longpolling / webhook).
+### [max-telegram-bridge](https://github.com/weavedwires/max-telegram-bridge)
+**Мост для объединения групп МАКС и Telegram** — ретрансляция сообщений в обе стороны. Python.
 
 ### [XDCTerm](https://github.com/weavedwires/xdcterm)
 **Бот с in-chat-app терминалом для DeltaChat.** fork одноимённой [демки](https://github.com/link2xt/xdcterm), доведённый до юзабельного состояния. Сам использую для управления серверами вне дома.
+
+### [nanobot-channel-deltachat](https://github.com/weavedwires/nanobot-channel-deltachat)
+**Канал Delta Chat для агентского фреймворка [nanobot](https://github.com/HKUDS/nanobot)** — форк, правки ушли в апстрим.
+
+### [YandexWeatherCli](https://github.com/weavedwires/YandexWeatherCli)
+**AI-скилл для прогноза погоды** — обёртка над Yandex Weather API, отдаёт CSV, читаемый агентом. Java.
 
 ---
 
