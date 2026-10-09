@@ -35,7 +35,7 @@
 Я не нашел готового решения на Java и написал **собственный фреймворк для Telegram-ботов.** Chain of Responsibility, модульная архитектура (core / longpolling / webhook).
 
 ### [Ir0hProxy](https://github.com/weavedwires/Ir0hProxy)
-**Android-приложение, которое заворачивает трафик телефона в SOCKS-туннель поверх [iroh](https://www.iroh.computer/).** Выходному узлу не нужен белый адрес — соединение поднимается по ticket, а не по `IP:port`. Режимы VPN и Proxy, список подключений, свои DNS-серверы. MIT.
+**Android-приложение, которое заворачивает трафик телефона в SOCKS-туннель поверх [iroh](https://www.iroh.computer/). Использует чатмейл инфраструктуру.
 
 ### [DeltachatMcp](https://github.com/weavedwires/DeltachatMcp)
 **MCP-сервер для Delta Chat.** Даёт AI-агентам (Claude Desktop, OpenCode и любым другим MCP-клиентам) доступ к чатам: чтение, отправка сообщений, импорт аккаунта из бэкапа. Java 21, shaded JAR, запускается как stdio-подпроцесс клиента.
@@ -43,14 +43,14 @@
 ### [dumbpipe-over-chatmail](https://github.com/weavedwires/dumbpipe-over-chatmail)
 **Переработка iroh dumbpipe** — hole punching в стиле netcat. Мои фичи: UDP-поддержка, кастомный DNS (`--dns-server` / `DUMBPIPE_DNS_SERVER`, на Android — авто-резолв из `getprop net.dns*`), релиз-CI на 8 платформ (Linux / Windows / macOS / Android). Rust.
 
-### [max-telegram-bridge](https://github.com/weavedwires/max-telegram-bridge)
-**Мост для объединения групп МАКС и Telegram** — ретрансляция сообщений в обе стороны. Python.
-
 ### [XDCTerm](https://github.com/weavedwires/xdcterm)
 **Бот с in-chat-app терминалом для DeltaChat.** fork одноимённой [демки](https://github.com/link2xt/xdcterm), доведённый до юзабельного состояния. Сам использую для управления серверами вне дома.
 
 ### [nanobot-channel-deltachat](https://github.com/weavedwires/nanobot-channel-deltachat)
-**Канал Delta Chat для агентского фреймворка [nanobot](https://github.com/HKUDS/nanobot)** — форк, правки ушли в апстрим.
+**Канал Delta Chat для агентского фреймворка [nanobot](https://github.com/HKUDS/nanobot)** — форк, обновил под новую версию апи, реализовал в виде патча применимого к любой версии.
+
+### [max-telegram-bridge](https://github.com/weavedwires/max-telegram-bridge)
+**Мост для объединения групп МАКС и Telegram** — ретрансляция сообщений в обе стороны. Python.
 
 ### [YandexWeatherCli](https://github.com/weavedwires/YandexWeatherCli)
 **AI-скилл для прогноза погоды** — обёртка над Yandex Weather API, отдаёт CSV, читаемый агентом. Java.
@@ -67,12 +67,6 @@
 **REST API для AI-first планировщика дел** — бэкэнд для мобильного приложения с google mobile-native Oauth и Российской нейросетью SberAI.
 
 </details>
-
----
-
-## GitHub
-
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=weavedwires&show_icons=true&theme=merko)](https://github.com/weavedwires/github-readme-stats)
 
 ---
 
