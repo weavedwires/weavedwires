@@ -2,7 +2,7 @@
 
 # Даниил / Weavedwires
 
-## Java-разработчик · ИИ-агенты и интеграции · Core features
+## Java-разработчик · Clean architecture · Core features
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
