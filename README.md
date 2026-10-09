@@ -36,11 +36,10 @@
 Я не нашел готового решения на Java и написал **собственный фреймворк для Telegram-ботов.** Chain of Responsibility, модульная архитектура (core / longpolling / webhook).
 
 ### [Ir0hProxy](https://github.com/weavedwires/Ir0hProxy)
-**Android-приложение, которое заворачивает трафик телефона в SOCKS-туннель поверх [iroh](https://www.iroh.computer/). Использует чатмейл инфраструктуру. Android/Java.
+**Android-приложение**, которое заворачивает трафик телефона в SOCKS-туннель поверх [iroh](https://www.iroh.computer/). Использует чатмейл инфраструктуру. Android/Java.
 
 ### [DeltachatMcp](https://github.com/weavedwires/DeltachatMcp)
-**MCP-сервер для Delta Chat.** Даёт AI-агентам (Claude Desktop, OpenCode и любым другим MCP-клиентам) доступ к чатам: чтение, отправка сообщений, импорт аккаунта из бэкапа. Java 21, shaded JAR, запускается как stdio-подпроцесс клиента. Java.
-
+**MCP-сервер для Delta Chat.** Даёт AI-агентам (Claude code, Hermes agent и любым другим MCP-клиентам) доступ к чатам: листинг, чтение, отправка сообщений, управление аккаунтами. Java.
 ### [XDCTerm](https://github.com/weavedwires/xdcterm)
 **Бот с in-chat-app терминалом для DeltaChat.** fork одноимённой [демки](https://github.com/link2xt/xdcterm), доведённый до юзабельного состояния. Сам использую для управления серверами вне дома. Python.
 
