@@ -2,12 +2,14 @@
 
 # Даниил / Weavedwires
 
-## Java-разработчик · Clean Architecture · Core features
+## Java-разработчик · ИИ-агенты и интеграции · Core features
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="Spring" />
   <img src="https://img.shields.io/badge/Micronaut-000000?style=for-the-badge&logo=micronaut&logoColor=white" alt="Micronaut" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
   <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
@@ -21,7 +23,21 @@
 
 **Core features**: меня всегда привлекала история технологий, и то, как оно работает внутри.
 
+**AI & agents**: собираю связки «LLM ↔ реальный сервис» — MCP-серверы и мосты между мессенджерами. Отдельно тянет к децентрализованным протоколам: Delta Chat, iroh, Yggdrasil.
+
 **Philosophy**: Проект должен быть полезен. 1000 todo-листов уже лежит на github - зачем еще один?
+
+---
+
+## ИИ и агенты
+
+### [DeltachatMcp](https://github.com/weavedwires/DeltachatMcp)
+**MCP-сервер для Delta Chat.** Даёт AI-агентам (Claude Desktop, OpenCode и любым другим MCP-клиентам) доступ к чатам: чтение, отправка сообщений, импорт аккаунта из бэкапа. Java 21, shaded JAR, запускается как stdio-подпроцесс клиента.
+
+### [Ir0hProxy](https://github.com/weavedwires/Ir0hProxy)
+**Android-приложение, которое заворачивает трафик телефона в SOCKS-туннель поверх [iroh](https://www.iroh.computer/).** Выходному узлу не нужен белый адрес — соединение поднимается по ticket, а не по `IP:port`, так что выходом может быть машина дома или VPS. MIT.
+
+А ещё в эту же тему: [nanobot-channel-deltachat](https://github.com/weavedwires/nanobot-channel-deltachat) (канал Delta Chat для nanobot), [YandexWeatherCli](https://github.com/weavedwires/YandexWeatherCli) (AI-скилл для прогноза погоды), [max-telegram-bridge](https://github.com/weavedwires/max-telegram-bridge) (мост MAX ↔ Telegram), [dumbpipe-over-chatmail](https://github.com/weavedwires/dumbpipe-over-chatmail) (hole punching поверх chatmail, Rust).
 
 ---
 
@@ -30,14 +46,21 @@
 ### [Strongram](https://github.com/weavedwires/strongram)
 Я не нашел готового решения на Java и написал **Собственный фреймворк для Telegram-ботов.** Chain of Responsibility, модульная архитектура (core / longpolling / webhook).
 
+### [XDCTerm](https://github.com/weavedwires/xdcterm)
+**Бот с in-chat-app терминалом для DeltaChat.** fork одноимённой [демки](https://github.com/link2xt/xdcterm), доведённый до юзабельного состояния. Сам использую для управления серверами вне дома.
+
+---
+
+<details>
+<summary>Учебные проекты</summary>
+
 ### [SVURoutesBot](https://github.com/weavedwires/svuroutesbot)
 **Учебный проект для АО СУБР** от 1 школы г. Североуральска. Гид экскурсий с возможностью записи на них, интеграцией Яндекс.Карт, и админ-панелью с полной обратной связью.
 
 ### [AiCalendar](https://github.com/weavedwires/aicalendar)
 **REST API для AI-first планировщика дел** — бэкэнд для мобильного приложения с google mobile-native Oauth и Российской нейросетью SberAI.
 
-### [XDCTerm](https://github.com/weavedwires/xdcterm)
-**Бот с in-chat-app терминалом для DeltaChat.** fork одноимённой [демки](https://github.com/link2xt/xdcterm), доведённый до юзабельного состояния. Сам испоьзую для управления серверами вне дома.
+</details>
 
 ---
 
